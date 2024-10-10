@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #1a1a1d;
+    color: #c9c9c9;
+    line-height: 1.6;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #f2f2f2;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #ffcc00;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #e6e6e6;
+}
+
+/* Imagem da Floresta */
+img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #ffcc00;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* Estilo da lista de escolhas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #333;
+    border: 2px solid #ffcc00;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #ffcc00;
+}
+
+ul li a {
+    color: #1a1a1d;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #000;
+}

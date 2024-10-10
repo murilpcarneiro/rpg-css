@@ -1,0 +1,61 @@
+/* Definir um background temático */
+body {
+    background-image: url('https://wallpaperaccess.com/full/2047327.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: 'Cinzel', serif;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+p{
+    color: #333;
+}
+
+/* Estilizar o título principal */
+h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+}
+
+/* Personalizar a imagem */
+img {
+    border: 4px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    margin-bottom: 30px;
+}
+
+/* Estilizar o parágrafo */
+p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    margin: 0 20px 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Estilizar o link */
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4caf50;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+    background-color: #388e3c;
+    transform: scale(1.05);
+}
